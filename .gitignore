@@ -5,7 +5,10 @@
 __pycache__/
 venv/
 
+# ignore generated TTS audio
+static/tts/
+*.mp3
+
 # ignore backup/temp files
-*.json
 *.pyc
 *.log
