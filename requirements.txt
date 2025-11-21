@@ -10,3 +10,4 @@ docx2txt
 gTTS
 requests
 beautifulsoup4
+gunicorn
