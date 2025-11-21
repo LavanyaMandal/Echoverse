@@ -1,0 +1,12 @@
+flask
+flask-cors
+google-generativeai
+serpapi
+python-dotenv
+pillow
+pytesseract
+PyPDF2
+docx2txt
+gTTS
+requests
+beautifulsoup4

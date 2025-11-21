@@ -1,0 +1,11 @@
+# ignore environment keys
+.env
+
+# ignore python cache
+__pycache__/
+venv/
+
+# ignore backup/temp files
+*.json
+*.pyc
+*.log
