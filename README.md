@@ -1,87 +1,88 @@
 # EchoVerse – AI Chatbot Web Application  
-> Fullstack project developed as part of internship coding challenge.  
-> Focus on clean architecture, problem solving & deployment.
+> 🚀 Fullstack project developed as part of internship assessment.  
+> Focus: Clean architecture, real-world thinking & functional deployment.
 
 ---
 
-## 🚀 Project Overview
-EchoVerse is an AI-powered chatbot web app that gives real-time responses, remembers chat context, and supports text-to-speech.  
-This app uses Flask backend + HTML/CSS/JS frontend and is fully deployed online.
+## 🧠 Goal of this Project (As per assignment brief)
+
+> This challenge is not about perfection —  
+> it’s about demonstrating **problem-solving**,  
+> **thinking process**, **project structure**,  
+> and **communication of the solution**.
+
+---
+
+## 📌 Tracks Covered (Based on Assignment)
+
+| Track | Status | Description |
+|------|--------|-------------|
+| **Track 1 – Frontend (Mock Data)** | ✔ Completed | Fully responsive UI using HTML/CSS/JS with dynamic JavaScript |
+| **Track 2 – Backend (API + Database)** | ⏳ Optional – Planned | CRUD API structure planned (Flask + SQLite) |
+| **Track 3 – Fullstack (Web + API)** | ✔ Completed | EchoVerse integrates frontend + backend + AI API + deployment |
+
+---
+
+## 🔗 Live Deployment (Render Hosted)
+
+**👉 https://echoverse-qg2w.onrender.com**
+
+⚠ NOTE: This is a free Render instance – the first response may take **20–40 seconds** to wake up.
 
 ---
 
 ## 🛠 Tech Stack Used
 
-| Layer        | Technologies |
-|--------------|---------------|
-| Frontend     | HTML, CSS, JavaScript |
-| Backend      | Python (Flask) |
-| Deployment   | Render |
+| Layer | Technology |
+|------|-------------|
+| Frontend | HTML, CSS, JavaScript |
+| Backend | Flask (Python) |
+| AI API | OpenAI / Gemini |
+| Deployment | Render |
 | Version Control | Git & GitHub |
 
 ---
 
-## 📁 Folder Structure
+## 📂 Folder Structure
 
 Echoverse/
-│── static/
-│── templates/
-│── app.py
-│── requirements.txt
-│── .env (ignored)
-│── .gitignore
-
----
-
-## 📌 Features
-
-✔ Interactive chatbot interface  
-✔ Flask-based backend API  
-✔ Memory support (chat history)  
-✔ Text-to-Speech (TTS)  
-✔ Responsive UI  
-✔ Secure environment (API keys not in repo)  
-✔ Deployment done on Render  
-
----
-
-## 🔒 Security
-
-- `.env` file added to `.gitignore` to prevent API key leaks  
-- Virtual environment (`venv/`) removed before pushing to GitHub  
-- Ready for authentication integration in next version  
-
----
-
-## ⚙️ Setup (Local Run)
-
-```bash
-git clone https://github.com/LavanyaMandal/Echoverse.git
-cd Echoverse
-
-python -m venv venv
-venv\Scripts\activate        # Windows
-pip install -r requirements.txt
-
-# Create .env file manually in root folder:
-OPENAI_API_KEY=your_api_key_here
-
-python app.py
-
-
-## 🌍 Live Deployment (Click to Try)
-🔗 https://echoverse-qg2w.onrender.com  
-(This app may take 30–50 seconds to wake up because it’s hosted on a free Render instance.)
+│── static/ # CSS / JS / audio files
+│── templates/ # HTML frontend
+│── screenshots/ # UI preview images
+│── app.py # Flask backend
+│── requirements.txt # Dependencies
+│── .env (ignored) # API keys
+│── .gitignore # Security configs
+│── README.md
 
 
 ---
-
 
 ## 📸 Screenshots (UI Preview)
 
 ### 🖥️ Chat Interface
 ![EchoVerse UI](./screenshots/ui_preview.png)
 
+---
 
+## ⚙️ Setup Instructions (Local Run)
 
+```bash
+# 1. Clone the repository
+git clone https://github.com/LavanyaMandal/Echoverse.git
+cd Echoverse
 
+# 2. Create and activate virtual environment
+python -m venv venv
+venv\Scripts\activate   # Windows
+# OR:
+source venv/bin/activate  # Mac/Linux
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Create .env file and add your API key
+OPENAI_API_KEY=your_api_key_here
+
+# 5. Run the application
+python app.py
