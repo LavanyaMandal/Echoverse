@@ -39,14 +39,14 @@
 ## 📂 Folder Structure
 
 Echoverse/
-│── static/ # CSS / JS / audio files
-│── templates/ # HTML frontend
-│── screenshots/ # UI preview images
-│── app.py # Flask backend
-│── requirements.txt # Dependencies
-│── .env (ignored) # API keys
-│── .gitignore # Security configs
-└── README.md
+- static/ # CSS / JS / audio files
+- templates/ # HTML frontend
+- screenshots/ # UI preview images
+- app.py # Flask backend
+- requirements.txt # Dependencies
+- .env (ignored) # API keys
+- .gitignore # Security configs
+- README.md
 
 
 ---
@@ -111,7 +111,7 @@ http://127.0.0.1:5000/
 
 
 
-## 🚀 Future Enhancements (Optional)
+## 🚀 Future Enhancements
 
 | Feature | Purpose |
 |--------|---------|
