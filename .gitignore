@@ -1,14 +1,19 @@
-# ignore environment keys
+# 🔒 Environment files
 .env
+*.env
+.env.*
 
-# ignore python cache
-__pycache__/
+# 🚫 Virtual Environment
 venv/
+venv/*
 
-# ignore generated TTS audio
-static/tts/
-*.mp3
-
-# ignore backup/temp files
+# 🗑️ Python Cache Files
+__pycache__/
 *.pyc
-*.log
+
+# 🤐 JSON data files (if sensitive / personal)
+*.json
+
+# 🚫 Exclude audio files (TTS generated)
+static/tts/*.wav
+static/tts/*.mp3
