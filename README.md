@@ -4,14 +4,6 @@
 
 ---
 
-## 🧠 Goal of This Project (According to Assignment)
-
-> This challenge is not about perfection —  
-> it’s about how you **think, design, structure code,**  
-> and **communicate your solution** in a real-world problem setting.
-
----
-
 ## 📌 Tracks Covered (Based on Assignment)
 
 | Track | Status | Description |
