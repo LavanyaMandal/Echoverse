@@ -4,21 +4,29 @@
 
 ---
 
+## 🧠 Goal of This Project (According to Assignment)
+
+> This challenge is not about perfection —  
+> it’s about how you **think, design, structure code,**  
+> and **communicate your solution** in a real-world problem setting.
+
+---
+
 ## 📌 Tracks Covered (Based on Assignment)
 
 | Track | Status | Description |
 |------|--------|-------------|
 | **Track 1 – Frontend (Mock Data)** | ✔ Completed | Fully responsive UI using HTML/CSS/JS with dynamic JavaScript |
-| **Track 2 – Backend (API + Database)** | ✔ Completed | CRUD API structure planned (Flask + SQLite) |
+| **Track 2 – Backend (API + Database)** | ✔ Completed | CRUD API implemented (Flask + JSON) |
 | **Track 3 – Fullstack (Web + API)** | ✔ Completed | EchoVerse integrates frontend + backend + AI API + deployment |
 
 ---
 
 ## 🔗 Live Deployment (Render Hosted)
 
-**👉 https://echoverse-qg2w.onrender.com**
+👉 **https://echoverse-qg2w.onrender.com**
 
-⚠ NOTE: This is a free Render instance – the first response may take **20–40 seconds** to wake up.
+⚠ *Note: This is a free Render instance – the first response may take **20–40 seconds** to wake up.*
 
 ---
 
@@ -44,35 +52,39 @@ Echoverse/
 │── requirements.txt # Dependencies
 │── .env (ignored) # API keys
 │── .gitignore # Security configs
-│── README.md
+└── README.md
+
 
 ---
 
 ## 📸 Screenshots (UI Preview)
 
-### 🖥️ Chat Interface
-![EchoVerse UI](./screenshots/ui_preview.png)
+### 🖥️ Chat Interface  
+![EchoVerse UI](./screenshots/ui_preview.png)  
 
 ---
 
 ## ⚙️ Setup Instructions (Local Run)
 
 ```bash
-# 1. Clone the repository
+# 1️⃣ Clone the repository
 git clone https://github.com/LavanyaMandal/Echoverse.git
 cd Echoverse
 
-# 2. Create and activate virtual environment
+# 2️⃣ Create & activate virtual environment
 python -m venv venv
-venv\Scripts\activate   # Windows
-# OR:
+venv\Scripts\activate     # Windows
+# OR
 source venv/bin/activate  # Mac/Linux
 
-# 3. Install dependencies
+# 3️⃣ Install Python dependencies
 pip install -r requirements.txt
 
-# 4. Create .env file and add your API key
+# 4️⃣ Create .env file (IMPORTANT – not pushed to GitHub)
 OPENAI_API_KEY=your_api_key_here
 
-# 5. Run the application
+# 5️⃣ Run the app locally
 python app.py
+
+# Then open in browser:
+http://127.0.0.1:5000/
