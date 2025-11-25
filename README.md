@@ -83,51 +83,40 @@ OPENAI_API_KEY=your_api_key_here
 python app.py
 # Open in browser:
 http://127.0.0.1:5000/
+```
 
----
-
-
-Without these → **GitHub markdown breaks** → Everything below gets stuck inside code block ❌
-
----
-
-## 🧠 Now Paste the Other Sections BELOW the closed code block:
-```markdown
----
 
 ## 🧠 Assumptions
 
-- User interacts directly through the web browser  
+- User interacts directly through a web browser  
 - API response delay may occur due to free-tier Render hosting  
 - JSON-based chat memory is used (lightweight & fast)  
 - `.env` file must contain a valid API key before running  
-- Voice output depends on browser speech synthesis support  
+- Voice output depends on browser speech synthesis support   
 
----
+
 
 ## 💡 Bonus Features Implemented (Fully Working)
 
 | Feature | Description |
 |--------|-------------|
 | Text-to-Speech (TTS) reply | Chatbot speaks responses like a voice assistant |
-| Multilingual chat support | Can continue the chat in Hindi / French / Spanish, etc. |
-| Personality switching | Assistant can change mood (fun / teacher / developer / professional) |
-| Voice-to-voice interaction | Chatbot can talk back using browser voice synthesis |
-| Reminder assistant feature | User can set reminders directly inside chat |
-| Secure `.env` protection | API keys are safely hidden and not pushed to GitHub |
-| Responsive UI | Works smoothly across different screens |
-| Live deployment on Render | Fully hosted & accessible globally |
+| Multilingual chat support | Chat continues in Hindi, French, Spanish, etc. |
+| Personality switching | Assistant mood: fun / developer / teacher / professional |
+| Voice-to-voice interaction | Chatbot responds using web speech API |
+| Reminder assistant feature | Users can set reminders inside chat |
+| Secure `.env` protection | API keys safely ignored in GitHub repo |
+| Responsive UI | Works smoothly across devices |
+| Live deployment on Render | Accessible publicly across the internet |
 
----
+
 
 ## 🚀 Future Enhancements (Optional)
 
 | Feature | Purpose |
 |--------|---------|
-| SQLite / MongoDB storage | Save permanent chat history for each user |
-| Authentication system | User login to personalize chats |
-| Dark / Light mode | Improved user experience |
+| SQLite / MongoDB storage | Save permanent chat history per user |
+| Authentication system | Personalize user experience & secure chats |
+| Dark / Light mode | Better UI experience |
 | Complete CRUD employee/task API | Backend track enhancement |
-| React / Vue frontend version | Modern UI framework for scalability |
-
-
+| React / Vue frontend version | Modern UI scalability |
