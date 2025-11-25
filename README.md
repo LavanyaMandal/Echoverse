@@ -76,9 +76,12 @@ python app.py
 
 ---
 
-## 📸 Screenshots
 
-| Chat UI | AI Response Example |
-|---------|----------------------|
-| ![UI Screenshot](screenshots/ui.png) | ![Response Screenshot](screenshots/response.png) |
+## 📸 Screenshots (UI Preview)
+
+### 🖥️ Chat Interface
+![EchoVerse UI](./screenshots/ui_preview.png)
+
+
+
 
