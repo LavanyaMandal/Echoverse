@@ -4,14 +4,6 @@
 
 ---
 
-## 🧠 Goal of This Project (as per assignment)
-
-This challenge is **not about perfection** —  
-it’s about how I **think, design, solve problems**,  
-how I **structure code**, and how I **communicate my solution**.
-
----
-
 ## 📌 Tracks Covered
 
 | Track | Status | Description |
@@ -92,9 +84,16 @@ python app.py
 # Open in browser:
 http://127.0.0.1:5000/
 
+---
+
+
+Without these → **GitHub markdown breaks** → Everything below gets stuck inside code block ❌
 
 ---
 
+## 🧠 Now Paste the Other Sections BELOW the closed code block:
+```markdown
+---
 
 ## 🧠 Assumptions
 
@@ -104,9 +103,7 @@ http://127.0.0.1:5000/
 - `.env` file must contain a valid API key before running  
 - Voice output depends on browser speech synthesis support  
 
-
 ---
-
 
 ## 💡 Bonus Features Implemented (Fully Working)
 
@@ -121,11 +118,9 @@ http://127.0.0.1:5000/
 | Responsive UI | Works smoothly across different screens |
 | Live deployment on Render | Fully hosted & accessible globally |
 
-
 ---
 
-
-## 🚀 Future Enhancements 
+## 🚀 Future Enhancements (Optional)
 
 | Feature | Purpose |
 |--------|---------|
@@ -134,4 +129,5 @@ http://127.0.0.1:5000/
 | Dark / Light mode | Improved user experience |
 | Complete CRUD employee/task API | Backend track enhancement |
 | React / Vue frontend version | Modern UI framework for scalability |
+
 
