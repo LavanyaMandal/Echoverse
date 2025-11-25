@@ -4,21 +4,12 @@
 
 ---
 
-## 🧠 Goal of this Project (As per assignment brief)
-
-> This challenge is not about perfection —  
-> it’s about demonstrating **problem-solving**,  
-> **thinking process**, **project structure**,  
-> and **communication of the solution**.
-
----
-
 ## 📌 Tracks Covered (Based on Assignment)
 
 | Track | Status | Description |
 |------|--------|-------------|
 | **Track 1 – Frontend (Mock Data)** | ✔ Completed | Fully responsive UI using HTML/CSS/JS with dynamic JavaScript |
-| **Track 2 – Backend (API + Database)** | ⏳ Optional – Planned | CRUD API structure planned (Flask + SQLite) |
+| **Track 2 – Backend (API + Database)** | ✔ Completed | CRUD API structure planned (Flask + SQLite) |
 | **Track 3 – Fullstack (Web + API)** | ✔ Completed | EchoVerse integrates frontend + backend + AI API + deployment |
 
 ---
@@ -54,7 +45,6 @@ Echoverse/
 │── .env (ignored) # API keys
 │── .gitignore # Security configs
 │── README.md
-
 
 ---
 
